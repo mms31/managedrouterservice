@@ -1,0 +1,29 @@
+<%= form_for(@configline) do |f| %>
+  <% if @configline.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@configline.errors.count, "error") %> prohibited this configline from being saved:</h2>
+
+      <ul>
+      <% @configline.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :router_id %><br>
+    <%= f.number_field :router_id %>
+  </div>
+  <div class="field">
+    <%= f.label :linenumber %><br>
+    <%= f.number_field :linenumber %>
+  </div>
+  <div class="field">
+    <%= f.label :lineconfig %><br>
+    <%= f.text_field :lineconfig %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

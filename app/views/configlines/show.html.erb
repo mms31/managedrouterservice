@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Router:</strong>
+  <%= @configline.router_id %>
+</p>
+
+<p>
+  <strong>Linenumber:</strong>
+  <%= @configline.linenumber %>
+</p>
+
+<p>
+  <strong>Lineconfig:</strong>
+  <%= @configline.lineconfig %>
+</p>
+
+<%= link_to 'Edit', edit_configline_path(@configline) %> |
+<%= link_to 'Back', configlines_path %>

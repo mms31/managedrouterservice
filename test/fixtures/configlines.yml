@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  router_id: 1
+  linenumber: 1
+  lineconfig: MyString
+
+two:
+  router_id: 1
+  linenumber: 1
+  lineconfig: MyString
