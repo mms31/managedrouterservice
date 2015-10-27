@@ -1,5 +1,7 @@
 == README
 
+https://git-scm.com/book/en/v2/Git-Branching-Branch-Management
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
